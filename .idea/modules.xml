@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Projects-in-Intellij.iml" filepath="$PROJECT_DIR$/.idea/Java-Projects-in-Intellij.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab on Book/Lab on Book.iml" filepath="$PROJECT_DIR$/Lab on Book/Lab on Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LabTest/LabTest.iml" filepath="$PROJECT_DIR$/LabTest/LabTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoorSirMidAssignment/NoorSirMidAssignment.iml" filepath="$PROJECT_DIR$/NoorSirMidAssignment/NoorSirMidAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoorSirProj-1/NoorSirProj-1.iml" filepath="$PROJECT_DIR$/NoorSirProj-1/NoorSirProj-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoorSirProj-2/NoorSirProj-2.iml" filepath="$PROJECT_DIR$/NoorSirProj-2/NoorSirProj-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoorSirProj-3/NoorSirProj-3.iml" filepath="$PROJECT_DIR$/NoorSirProj-3/NoorSirProj-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoorSirProj-4/NoorSirProj-4.iml" filepath="$PROJECT_DIR$/NoorSirProj-4/NoorSirProj-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoorSirProj-5/NoorSirProj-5.iml" filepath="$PROJECT_DIR$/NoorSirProj-5/NoorSirProj-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoorSirProj-6/NoorSirProj-6.iml" filepath="$PROJECT_DIR$/NoorSirProj-6/NoorSirProj-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
+    </modules>
+  </component>
+</project>
