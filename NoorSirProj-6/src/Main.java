@@ -71,7 +71,7 @@ public class Main {
     static void studentControl(){
         while(true){
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Press 1 to enter student details :\nPress 2 to find student details :\nPress 3 to add course details :\nPress 4 to view student details :\nPress 5 to exit ");
+            System.out.println("Press 1 to enter student details :\nPress 2 to find student details :\nPress 3 to add course details :\nPress 4 to view student's course details :\nPress 5 to exit ");
 
             int choice = scanner.nextInt();
             scanner.nextLine();

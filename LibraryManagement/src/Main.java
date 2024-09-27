@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Press 6 to search book");
         System.out.println("Press 7 to see history of transactions");
         System.out.println("Press 8 to Quick info");
-        System.out.println("Press 9 to Exit");
+        System.out.println("Press 9 to Exit\n");
         int choice = scanner.nextInt();
         scanner.nextLine();
         if(choice == 1){

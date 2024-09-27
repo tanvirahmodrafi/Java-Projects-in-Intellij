@@ -20,7 +20,6 @@ public class Library {
     public void addNewBook(Book book) {
         try{
             booksInformation.add(book);
-
             System.out.println(book.toString());
             System.out.println("Book added to the library");
         }catch (Exception e) {
@@ -101,7 +100,7 @@ public class Library {
                             Scanner scanner = new Scanner(System.in);
                             System.out.println("Enter the transaction date of the book");
                             String date = scanner.nextLine();
-                            transactionsInformation.add(new Transaction("Borrow", uniqueId, uniqueMemberId, date));
+                            transactionsInformation.add(new Transaction("Return ", uniqueId, uniqueMemberId, date));
                             System.out.println("Book is returned!");
                         }else{
                             System.out.println("User has not Borrowed the book!");
