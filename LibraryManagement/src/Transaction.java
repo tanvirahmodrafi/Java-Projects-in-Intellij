@@ -49,11 +49,11 @@ public class Transaction {
     @Override
     public String toString() {
         return "Transaction information: " + transactionID + "\n" +
-                " Transaction Type:" + transactionType + "\n" +
-                " Books Unique ID" + bookUniqueId + "\n" +
-                " Members Unique Id" + memberUniqueId + "\n" +
-                " Transaction Date" + transactionDate + "\n" +
-                " Book Type" + bookType + "\n" +
+                " Transaction Type: " + transactionType + "\n" +
+                " Books Unique ID: " + bookUniqueId + "\n" +
+                " Members Unique Id: " + memberUniqueId + "\n" +
+                " Transaction Date: " + transactionDate + "\n" +
+                " Book Type: " + bookType + "\n" +
                 "---------------------------------------";
     }
 }
