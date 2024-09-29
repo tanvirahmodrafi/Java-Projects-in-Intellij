@@ -30,8 +30,10 @@ public class Main {
             String category = scanner.nextLine();
             System.out.println("Enter the Availability(true/false) of the book");
             boolean availability = Boolean.parseBoolean(scanner.next());
+            System.out.println("Enter the type of the book(write true for hard copy and false to ebook)");
+            boolean type = Boolean.parseBoolean(scanner.next());
             try{
-                library.addNewBook(new Book(name,author,uniqueID,category,availability));
+                library.addNewBook(new Book(name,author,uniqueID,category,availability,type));
                 System.out.println("Book added successfully");
             }catch(Exception e){
                 System.out.println(e.getMessage());

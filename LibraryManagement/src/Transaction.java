@@ -1,17 +1,19 @@
 import java.util.Date;
 
 public class Transaction {
-    private int transactionID= 0;
+    private int transactionID= 1;
     private String transactionType;
     private String bookUniqueId;
     private String memberUniqueId;
     private String transactionDate;
+    private String bookType;
 
-    Transaction(String transactionType, String bookUniqueId, String memberUniqueId, String transactionDate) {
+    Transaction(String transactionType, String bookUniqueId, String memberUniqueId, String transactionDate, String bookType) {
         this.transactionType = transactionType;
         this.bookUniqueId = bookUniqueId;
         this.memberUniqueId = memberUniqueId;
         this.transactionDate = transactionDate;
+        this.bookType = bookType;
     }
     public int getTransactionID() {
         return transactionID;
@@ -51,6 +53,7 @@ public class Transaction {
                 " Books Unique ID" + bookUniqueId + "\n" +
                 " Members Unique Id" + memberUniqueId + "\n" +
                 " Transaction Date" + transactionDate + "\n" +
+                " Book Type" + bookType + "\n" +
                 "---------------------------------------";
     }
 }

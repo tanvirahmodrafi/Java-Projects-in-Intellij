@@ -4,13 +4,15 @@ public class Book {
     protected String uniqueId;
     protected String category;
     protected boolean isAvailable = false;
+    protected boolean isHardCopy = true;
 
-    Book(String title, String author, String uniqueId, String category, boolean isAvailable) {
+    Book(String title, String author, String uniqueId, String category, boolean isAvailable, boolean isHardCopy) {
         this.title = title;
         this.author = author;
         this.uniqueId = uniqueId;
         this.category = category;
         this.isAvailable = isAvailable;
+        this.isHardCopy = isHardCopy;
     }
     public String getTitle() {
         return title;
@@ -24,6 +26,13 @@ public class Book {
     public String getCategory() {
         return category;
     }
+    public boolean getIsHardCopy(){return isHardCopy;}
+    public boolean isAvailable() {return isAvailable;}
+
+
+
+
+
     public void setTitle(String title) {
         this.title = title;
     }
@@ -36,12 +45,8 @@ public class Book {
     public void setCategory(String category) {
         this.category = category;
     }
-    public boolean isAvailable() {
-        return isAvailable;
-    }
-    public void setAvailable(boolean available) {
-        isAvailable = available;
-    }
+    public void setAvailable(boolean available) {this.isAvailable = available;}
+    public void setHardCopy(boolean hardCopy) {this.isHardCopy = hardCopy;}
 
     @Override
     public String toString() {
@@ -51,6 +56,7 @@ public class Book {
                 ", author='" + author + '\'' +
                 ", category='" + category + '\'' +
                 ", isAvailable=" + isAvailable +
+                ", isHardCopy=" + isHardCopy +
                 '}';
     }
 }

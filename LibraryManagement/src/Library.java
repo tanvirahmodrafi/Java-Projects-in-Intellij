@@ -72,10 +72,16 @@ public class Library {
                             if(book.isAvailable()) {
                                 book.setAvailable(false);
                                 member.bookBorrowed++;
+                                String bookType;
+                                if(book.isHardCopy){
+                                    bookType = "Hard Copy";
+                                }else{
+                                    bookType = "ebook";
+                                }
                                 Scanner scanner = new Scanner(System.in);
                                 System.out.println("Enter the transaction date of the book");
                                 String date = scanner.nextLine();
-                                transactionsInformation.add(new Transaction("Borrow", uniqueId, uniqueMemberId, date));
+                                transactionsInformation.add(new Transaction("Borrow", uniqueId, uniqueMemberId, date,bookType));
                                 System.out.println("Book is borrowed!");
                             }else{
                                 System.out.println("Book is not Available!");
@@ -100,7 +106,13 @@ public class Library {
                             Scanner scanner = new Scanner(System.in);
                             System.out.println("Enter the transaction date of the book");
                             String date = scanner.nextLine();
-                            transactionsInformation.add(new Transaction("Return ", uniqueId, uniqueMemberId, date));
+                            String bookType;
+                            if(book.isHardCopy){
+                                bookType = "Hard Copy";
+                            }else{
+                                bookType = "ebook";
+                            }
+                            transactionsInformation.add(new Transaction("Return ", uniqueId, uniqueMemberId, date,bookType));
                             System.out.println("Book is returned!");
                         }else{
                             System.out.println("User has not Borrowed the book!");
