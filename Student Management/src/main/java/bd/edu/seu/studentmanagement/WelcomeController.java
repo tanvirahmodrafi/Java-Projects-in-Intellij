@@ -13,7 +13,7 @@ public class WelcomeController implements Initializable {
     public Label nameLabel;
     @FXML
     public void logout(){
-        HelloApplication.changeScene("register");
+        HelloApplication.changeScene("register.fxml");
     }
 
     @Override

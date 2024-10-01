@@ -28,7 +28,7 @@ public class HelloApplication extends Application {
 
     public static void changeScene(String fileName) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fileName+ ".fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource(fileName));
             Scene scene = new Scene(fxmlLoader.load(), 600, 400);
             stage.setScene(scene);
         }catch (IOException e){

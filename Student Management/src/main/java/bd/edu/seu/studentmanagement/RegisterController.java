@@ -24,6 +24,7 @@ public class RegisterController {
 
     @FXML
     public void registerAction(){
+
         name = nameField.getText();
         String password = passwordField.getText();
         String program = programChoiceBox.getValue();
@@ -31,16 +32,18 @@ public class RegisterController {
         String biography = biographyArea.getText();
         boolean agree = agreeCheckBox.isSelected();
         if(agree){
-            HelloApplication.changeScene("welcome");
+            HelloApplication.changeScene("welcome.fxml");
         }else{
             System.out.println("Agree to register");
             checkBoxError.setText("Agree to register");
         }
     }
+
+
     @FXML
     void swapOnAction(){
         System.out.println("Swapping on");
-        HelloApplication.changeScene("welcome");
+        HelloApplication.changeScene("welcome.fxml");
     }
 
 }
