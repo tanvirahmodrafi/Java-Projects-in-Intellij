@@ -1,6 +1,7 @@
 module bd.edu.seu.productmanagement {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens bd.edu.seu.productmanagement to javafx.fxml;

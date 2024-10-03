@@ -13,6 +13,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return id + " " + name + " " + price;
+        return id + "," + name + "," + price +'\n';
     }
 }

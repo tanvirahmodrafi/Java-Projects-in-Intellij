@@ -16,11 +16,11 @@
             <Font size="28.0" />
          </font>
       </Label>
-      <TextField layoutX="88.0" layoutY="132.0" promptText="Product Id" />
-      <Button layoutX="273.0" layoutY="298.0" mnemonicParsing="false" text="Button" />
-      <TextField layoutX="88.0" layoutY="200.0" promptText="Product Name" />
-      <TextField layoutX="88.0" layoutY="267.0" promptText="Product price" />
-      <TableView layoutX="341.0" layoutY="102.0" prefHeight="200.0" prefWidth="244.0">
+      <TextField fx:id="productId" layoutX="88.0" layoutY="132.0" promptText="Product Id" />
+      <Button layoutX="273.0" layoutY="298.0" mnemonicParsing="false" onAction="#saveAction" text="Button" />
+      <TextField fx:id="productName" layoutX="88.0" layoutY="200.0" promptText="Product Name" />
+      <TextField fx:id="productPrice" layoutX="88.0" layoutY="267.0" promptText="Product price" />
+      <TableView fx:id="tableProductView" layoutX="341.0" layoutY="102.0" prefHeight="200.0" prefWidth="244.0">
         <columns>
           <TableColumn fx:id="idColumn" prefWidth="49.0" text="Id" />
           <TableColumn fx:id="nameColumn" prefWidth="122.0" text="Name" />

@@ -13,7 +13,7 @@ public class UserService {
 
     public static void save(User user) {
         try {
-            String line = user.toString() + "\n";
+            String line = user.toString();
             RandomAccessFile raf = new RandomAccessFile("user.txt", "rw");
             raf.seek(raf.length());
             raf.writeBytes(line);
@@ -24,7 +24,6 @@ public class UserService {
             System.out.println("IO exception");
         }
     }
-
 
     public List<User> listUsers() {
         List<User> users = new ArrayList<>();
