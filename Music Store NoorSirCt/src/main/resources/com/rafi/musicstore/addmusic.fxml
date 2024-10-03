@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rafi.musicstore.AddmusicController">
+   <children>
+      <Label layoutX="235.0" layoutY="49.0" text="Music Store">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="93.0" text="Song Title">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="152.0" text="Song Genere: (Pop/Classical)" />
+      <Label layoutX="202.0" layoutY="219.0" text="Song Status" />
+      <TextField fx:id="songTitleField" layoutX="206.0" layoutY="111.0" />
+      <ChoiceBox fx:id="checkGenreFiled" layoutX="206.0" layoutY="177.0" prefHeight="31.0" prefWidth="159.0" />
+      <RadioButton layoutX="199.0" layoutY="245.0" mnemonicParsing="false" text="Available">
+         <toggleGroup>
+            <ToggleGroup fx:id="isAvailable" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="286.0" layoutY="245.0" mnemonicParsing="false" text="Not available" toggleGroup="$isAvailable" />
+      <Button layoutX="246.0" layoutY="300.0" mnemonicParsing="false" onAction="#saveController" text="Save" />
+      <Label fx:id="alert" layoutX="202.0" layoutY="357.0" prefHeight="17.0" prefWidth="179.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
