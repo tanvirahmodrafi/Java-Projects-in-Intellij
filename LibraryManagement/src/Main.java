@@ -7,7 +7,6 @@ public class Main {
     Library library = new Library();
     Scanner scanner = new Scanner(System.in);
     while(true){
-
         System.out.println("Press 1 to add book");
         System.out.println("Press 2 to add member");
         System.out.println("Press 3 to Update book information");

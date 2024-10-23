@@ -30,9 +30,6 @@ public class Book {
     public boolean isAvailable() {return isAvailable;}
 
 
-
-
-
     public void setTitle(String title) {
         this.title = title;
     }

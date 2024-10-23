@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("addmusic.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        stage.setTitle("Music Store");
+        stage.setTitle("Product Store");
         stage.setScene(scene);
         stage.show();
 

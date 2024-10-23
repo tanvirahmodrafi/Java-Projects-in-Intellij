@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c09b36c1-016c-42ea-8e41-85a30acb0199" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musicInformation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rafi/musicstore/AddmusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rafi/musicstore/MusicInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/rafi/musicstore/addmusic.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/rafi/musicstore/musicInfo.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NoorSirCTOnJavaFx/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rafi/musicstore/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rafi/musicstore/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rafi/musicstore/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/rafi/musicstore/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NoorSirCTOnJavaFx/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NoorSirCTOnJavaFx/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +89,9 @@
       <workItem from="1727929475391" duration="5042000" />
       <workItem from="1727937068832" duration="4338000" />
       <workItem from="1727955605752" duration="4393000" />
+      <workItem from="1727970194854" duration="3888000" />
+      <workItem from="1728149369388" duration="723000" />
+      <workItem from="1728287139989" duration="98000" />
     </task>
     <servers />
   </component>
